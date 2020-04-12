@@ -248,7 +248,18 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
+  <pluginRepositories>
+    <pluginRepository>
+      <id>apache.staging.1562</id>
+      <url>https://repository.apache.org/content/repositories/maven-1562/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
   <build>
     <pluginManagement>
       <plugins>
